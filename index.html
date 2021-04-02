@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>EXERCICE JS PARTIE 2</title>
+</head>
+
+<body>
+
+  <h2>Exercice 4</h2>
+  <p>Trois champs contiennent des valeurs, au clic sur un bouton vous devez effacer ces valeurs
+  <form id="myForm">
+    Prénom: <input type="text" name="fname">
+    Nom: <input type="text" name="lname">
+    Ville: <input type="text" name="cname">
+    <input type="button" onclick="myFunction()" value="RAZ">
+  </form>
+  
+  <script>
+  function myFunction() {
+    document.getElementById("myForm").reset();
+  }
+  </script>
+
+</body>
+</html>
